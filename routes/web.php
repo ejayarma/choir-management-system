@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index'])->name('pages.index');
 Route::get('/about-us', [PagesController::class, 'aboutUs'])->name('pages.about-us');
+Route::get('/events', [PagesController::class, 'events'])->name('pages.events');
 Route::get('/blog-carousel', [PagesController::class, 'blogCarousel'])->name('pages.blog-carousel');
 Route::get('/blog-grid-2', [PagesController::class, 'blogGrid2'])->name('pages.blog-grid-2');
 Route::get('/blog-grid-without-sidebar', [PagesController::class, 'blogGridWithoutSidebar'])->name('pages.blog-grid-without-sidebar');

@@ -192,7 +192,7 @@
                                     <!-- Blurb link-->
                                     <div class="blurb blurb-link">
                                         <div class="blurb-icon linearicons-mic2"></div>
-                                        <h4 class="blurb-title"><a href="{{ route('pages.index')}}">Events</a></h4>
+                                        <h4 class="blurb-title"><a href="{{ route('pages.events')}}">Events</a></h4>
                                         <!-- TODO-->
                                     </div>
                                 </li>

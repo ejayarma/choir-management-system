@@ -21,6 +21,11 @@ class PagesController extends Controller
         return view('pages.cart');
     }
 
+    public function events()
+    {
+        return view('pages.events');
+    }
+
     public function blogCarousel()
     {
         return view('pages.blog-carousel');
