@@ -1,0 +1,1 @@
+.rating {	font-size: 1.25rem;	line-height: 1;}.rating-body {	position: relative;	display: inline-block;}.rating-empty {	color: #dee2e6;}.rating-container {	display: flex;	align-items: center;}.rating-title {	margin-right: .6em;	color: #272b37;}* + .rating-container {	margin-top: 0.75rem;}

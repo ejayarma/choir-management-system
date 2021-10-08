@@ -1,0 +1,1 @@
+.product-overview-price-old {	margin-right: 1em;	text-decoration: line-through;	color: #8d8d8d;}.product-overview-price-new {	color: #D79E8E;}* + .product-overview-price {	margin-top: 0.5625rem;}* + .product-overview-filter-form {	margin-top: 1.375rem;}@media (min-width: 992px) {	.product-overview p + p {		margin-top: 1.125rem;	}}

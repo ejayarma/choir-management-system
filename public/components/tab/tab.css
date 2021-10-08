@@ -1,0 +1,1 @@
+.tab-classic {	border: 1px solid #cfcfcf;}.tab-classic .tab-header {	padding: 1.25rem 0.9375rem;	border-bottom: 1px solid #cfcfcf;}.tab-classic .tab-content {	padding: 1.25rem 0.9375rem;}@media (min-width: 992px) {	.tab-classic .tab-header {		padding: 1.625rem 2.3125rem;	}	.tab-classic .tab-content {		padding: 1.5rem 2.3125rem;	}}

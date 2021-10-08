@@ -1,0 +1,1 @@
+.widget-title {	color: #D79E8E;}.widget-body {	position: relative;}* + .widget-body {	margin-top: 15px;}.widget + .widget {	margin-top: 2.1875rem;}.context-dark .widget-title {	color: #D79E8E;}@media (min-width: 1600px) {	* + .widget-body {		margin-top: 20px;	}	.widget + .widget {		margin-top: 2.75rem;	}}

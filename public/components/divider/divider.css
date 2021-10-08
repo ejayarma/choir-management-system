@@ -1,0 +1,1 @@
+.divider {	border-top: 1px solid #cfcfcf;}* + .divider,.divider + * {	margin-top: 1.9375rem;}.divider-dark {	border-color: #272b37;}.divider-sm {	border-top-width: 1px;}.divider-lg {	border-top-width: 3px;}.divider-xl {	border-top-width: 4px;}.context-dark .divider {	border-color: rgba(255, 255, 255, 0.1);}
