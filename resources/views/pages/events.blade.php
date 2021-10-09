@@ -20,7 +20,7 @@
                             <div class="post-hover-btn">View</div>
                         </a>
                         <div class="post-content">
-                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Sermons</a></div>
+                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
                             <h4 class="post-title text-divider"><a href="#">God’s Cure For the World’s Worst Disease</a>
                             </h4>
                             <div class="post-date">November 12, 2021</div>
@@ -34,7 +34,7 @@
                             <div class="post-hover-btn">View</div>
                         </a>
                         <div class="post-content">
-                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Sermons</a></div>
+                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
                             <h4 class="post-title text-divider"><a href="#">Christian Life: Running Well, Finishing
                                     Strong</a></h4>
                             <div class="post-date">November 12, 2021</div>
@@ -48,7 +48,7 @@
                             <div class="post-hover-btn">View</div>
                         </a>
                         <div class="post-content">
-                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Sermons</a></div>
+                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
                             <h4 class="post-title text-divider"><a href="#">The Passing of Religious Opportunity</a>
                             </h4>
                             <div class="post-date">November 12, 2021</div>
@@ -62,7 +62,7 @@
                             <div class="post-hover-btn">View</div>
                         </a>
                         <div class="post-content">
-                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Sermons</a></div>
+                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
                             <h4 class="post-title text-divider"><a href="#">Christian Life: Where Are My Strengths?
                                     (Romans 12:1-8)</a></h4>
                             <div class="post-date">November 12, 2021</div>
@@ -76,7 +76,7 @@
                             <div class="post-hover-btn">View</div>
                         </a>
                         <div class="post-content">
-                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Sermons</a></div>
+                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
                             <h4 class="post-title text-divider"><a href="#">Life is what Happens to You While You Are
                                     Making Plans</a></h4>
                             <div class="post-date">November 12, 2021</div>
@@ -90,7 +90,7 @@
                             <div class="post-hover-btn">View</div>
                         </a>
                         <div class="post-content">
-                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Sermons</a></div>
+                            <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
                             <h4 class="post-title text-divider"><a href="#">Rock Solid: How to Build a Life that
                                     Lasts</a></h4>
                             <div class="post-date">November 12, 2021</div>

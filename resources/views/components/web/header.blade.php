@@ -61,17 +61,23 @@
                                     </li>
                                     <li class="navbar-navigation-dropdown-item"><a
                                             class="navbar-navigation-dropdown-link"
-                                            href="{{ route('pages.blog-carousel') }}">Blog
-                                            carousel</a>
-                                    </li>
-                                    <li class="navbar-navigation-dropdown-item"><a
-                                            class="navbar-navigation-dropdown-link"
                                             href="{{ route('pages.blog-grid') }}">Blog grid</a>
                                     </li>
+                                </ul>
+                            </li>
+                            <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                                    href="#">Counseling</a>
+                                <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                                    <li class="navbar-navigation-back">
+                                        <button class="navbar-navigation-back-btn">Back</button>
+                                    </li>
                                     <li class="navbar-navigation-dropdown-item"><a
                                             class="navbar-navigation-dropdown-link"
-                                            href="{{ route('pages.blog-grid-without-sidebar') }}">Blog grid without
-                                            sidebar</a>
+                                            href="{{ route('pages.seek-help') }}">Seek help</a>
+                                    </li>
+                                    <li class="navbar-navigation-dropdown-item"><a
+                                            class="navbar-navigation-dropdown-link"
+                                            href="{{ route('pages.counseling') }}">Counseling Materials</a>
                                     </li>
                                 </ul>
                             </li>
@@ -90,16 +96,16 @@
                         </ul>
                     </li>
                     <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
-                            class="navbar-navigation-root-link" href="{{ route('pages.sermons') }}">Sermons</a>
+                            class="navbar-navigation-root-link" href="{{ route('pages.songs') }}">Songs</a>
                         <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                             <li class="navbar-navigation-back">
                                 <button class="navbar-navigation-back-btn">Back</button>
                             </li>
                             <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                    href="{{ route('pages.sermon-categories') }}">Sermon Categories</a>
+                                    href="{{ route('pages.song-categories') }}">Song Categories</a>
                             </li>
                             <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                    href="{{ route('pages.single-sermon') }}">Single Sermon</a>
+                                    href="{{ route('pages.single-song') }}">Single Song</a>
                             </li>
                         </ul>
                     </li>
@@ -185,7 +191,7 @@
                                     <!-- Blurb link-->
                                     <div class="blurb blurb-link">
                                         <div class="blurb-icon linearicons-bookmark"></div>
-                                        <h4 class="blurb-title"><a href="{{ route('pages.sermons')}}">Sermons</a></h4>
+                                        <h4 class="blurb-title"><a href="{{ route('pages.songs')}}">Songs</a></h4>
                                     </div>
                                 </li>
                                 <li class="list-item">

@@ -214,7 +214,7 @@
         <div class="container">
             <div class="row row-5 align-items-center">
                 <div class="col-md-5" data-animate='{"class":"fadeIn"}'>
-                    <h2>New Sermons</h2>
+                    <h2>New Songs</h2>
                 </div>
                 <div class="col-md-7" data-animate='{"class":"fadeIn","delay":".2s"}'>
                     <p class="big">Explore & listen to the latest seermons by our church’s pastors added daily and
@@ -236,7 +236,7 @@
                                 </a>
                                 <div class="post-content">
                                     <div class="post-tags group-5 text-small"><a class="post-tag"
-                                            href="sermons.html">Sermons</a></div>
+                                            href="songs.html">Songs</a></div>
                                     <h4 class="post-title text-divider"><a href="blog-post.html">God’s Cure For the
                                             World’s Worst Disease</a></h4>
                                     <div class="post-date">November 12, 2021</div>
@@ -251,7 +251,7 @@
                                 </a>
                                 <div class="post-content">
                                     <div class="post-tags group-5 text-small"><a class="post-tag"
-                                            href="sermons.html">Sermons</a></div>
+                                            href="songs.html">Songs</a></div>
                                     <h4 class="post-title text-divider"><a href="blog-post.html">Christian Life: Running
                                             Well, Finishing Strong</a></h4>
                                     <div class="post-date">November 12, 2021</div>
@@ -266,7 +266,7 @@
                                 </a>
                                 <div class="post-content">
                                     <div class="post-tags group-5 text-small"><a class="post-tag"
-                                            href="sermons.html">Sermons</a></div>
+                                            href="songs.html">Songs</a></div>
                                     <h4 class="post-title text-divider"><a href="blog-post.html">The Passing of
                                             Religious Opportunity</a></h4>
                                     <div class="post-date">November 12, 2021</div>
@@ -281,7 +281,7 @@
                                 </a>
                                 <div class="post-content">
                                     <div class="post-tags group-5 text-small"><a class="post-tag"
-                                            href="sermons.html">Sermons</a></div>
+                                            href="songs.html">Songs</a></div>
                                     <h4 class="post-title text-divider"><a href="blog-post.html">Christian Life: Where
                                             Are My Strengths? (Romans 12:1-8)</a></h4>
                                     <div class="post-date">November 12, 2021</div>
@@ -296,7 +296,7 @@
                                 </a>
                                 <div class="post-content">
                                     <div class="post-tags group-5 text-small"><a class="post-tag"
-                                            href="sermons.html">Sermons</a></div>
+                                            href="songs.html">Songs</a></div>
                                     <h4 class="post-title text-divider"><a href="blog-post.html">Life is what Happens to
                                             You While You Are Making Plans</a></h4>
                                     <div class="post-date">November 12, 2021</div>
@@ -311,7 +311,7 @@
                                 </a>
                                 <div class="post-content">
                                     <div class="post-tags group-5 text-small"><a class="post-tag"
-                                            href="sermons.html">Sermons</a></div>
+                                            href="songs.html">Songs</a></div>
                                     <h4 class="post-title text-divider"><a href="blog-post.html">Rock Solid: How to
                                             Build a Life that Lasts</a></h4>
                                     <div class="post-date">November 12, 2021</div>
@@ -475,7 +475,7 @@
                             <div class="col-sm-auto">
                                 <ul class="list-marked">
                                     <li class="list-item">Simple Donations</li>
-                                    <li class="list-item">Sermons</li>
+                                    <li class="list-item">Songs</li>
                                     <li class="list-item">Event Notifications</li>
                                 </ul>
                             </div>

@@ -76,44 +76,44 @@
             <section class="section-double-bottom section-md bg-transparent">
                 <div class="container"><img class="img-single" src="images/image-2-1170x386.jpg" alt="" width="1170"
                         height="386" />
-                    <h3 class="h3-big">Sermons</h3>
+                    <h3 class="h3-big">Songs</h3>
                     <div class="row row-30">
                         <div class="col-sm-6 col-lg-3">
                             <ul class="list list-divided h4">
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Character</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Character</a>
                                 </li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Christian
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Christian
                                         Life</a></li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Healing</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Healing</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-lg-3">
                             <ul class="list list-divided h4">
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Holy
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Holy
                                         Spirit</a></li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Hope</a></li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Marriage</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Hope</a></li>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Marriage</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-lg-3">
                             <ul class="list list-divided h4">
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Ministry</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Ministry</a>
                                 </li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Peace</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Peace</a>
                                 </li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Prayer</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Prayer</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-lg-3">
                             <ul class="list list-divided h4">
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Revival</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Revival</a>
                                 </li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Salvation</a>
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Salvation</a>
                                 </li>
-                                <li class="list-item"><a class="link link-arrow" href="single-sermon.html">Spiritual
+                                <li class="list-item"><a class="link link-arrow" href="single-song.html">Spiritual
                                         Growth</a></li>
                             </ul>
                         </div>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Search results</title>
+  <title>Counseling</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
   <div class="page">
     <!-- Page title-->
     <section class="section page-title bg-image context-dark"
-      style="background-image: url(images/background/bg-5-1920x496.jpg);">
+      style="background-image: url(images/background/bg-4-1920x496.jpg);">
       <!--RD Navbar-->
       <header class="section rd-navbar-wrap">
         <nav class="rd-navbar rd-navbar-default">
@@ -67,7 +67,7 @@
                     <li class="navbar-navigation-back">
                       <button class="navbar-navigation-back-btn">Back</button>
                     </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link"
                         href="#">Blog</a>
                       <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                         <li class="navbar-navigation-back">
@@ -85,7 +85,7 @@
                         <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                             href="blog-grid.html">Blog grid</a>
                         </li>
-                        <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                        <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link"
                             href="counseling.html">Counseling</a>
                         </li>
                       </ul>
@@ -99,7 +99,7 @@
                     <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                         href="coming-soon.html">Coming soon</a>
                     </li>
-                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link"
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                         href="search-results.html">Search results</a>
                     </li>
                   </ul>
@@ -218,23 +218,122 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-xl-8">
-            <h2 class="page-title-text">Search results</h2>
+            <h2 class="page-title-text">Counseling</h2>
           </div>
         </div>
       </div>
     </section>
-    <!-- Search results-->
-    <section class="section section-md bg-transparent"
-      data-preset='{"title":"Search Results","category":"service","reload":true,"id":"search-results"}'>
+    <!-- Blog grid-->
+    <section class="section-md bg-transparent">
       <div class="container">
-        <form class="form-inline group-15" action="search-results.html" method="GET"
-          data-rd-search='{"output":".rd-search-results","mode":"submit"}'>
-          <div class="form-inline-group">
-            <input class="form-control" type="text" placeholder="Enter a keyword" autocomplete="off" name="s">
+        <div class="row row-40 justify-content-xxl-between">
+          <div class="col-12">
+            <div class="row row-30 row-xl-60 justify-content-center">
+              <div class="col-md-6">
+                <!-- Post-->
+                <div class="post post-line">
+                  <div class="post-tags text-small"><a class="post-tag" href="classic-blog.html">Finance</a>
+                  </div><a class="post-media" href="blog-post.html"><img src="images/image-18-368x228.jpg" alt=""
+                      width="368" height="228" />
+                    <div class="post-hover-btn mdi-link-variant"></div>
+                  </a>
+                  <div class="post-content">
+                    <h4 class="post-title"><a href="blog-post.html">Lawyers Collective Women's Rights Initiative</a>
+                    </h4>
+                    <div class="post-date text-small">November 12, 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- Post-->
+                <div class="post post-line">
+                  <div class="post-tags text-small"><a class="post-tag" href="classic-blog.html">Finance</a>
+                  </div><a class="post-media" href="blog-post.html"><img src="images/image-15-368x228.jpg" alt=""
+                      width="368" height="228" />
+                    <div class="post-hover-btn mdi-link-variant"></div>
+                  </a>
+                  <div class="post-content">
+                    <h4 class="post-title"><a href="blog-post.html">Legal Documents Every Landlord Needs in 2020</a>
+                    </h4>
+                    <div class="post-date text-small">November 12, 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- Post-->
+                <div class="post post-line">
+                  <div class="post-tags text-small"><a class="post-tag" href="classic-blog.html">Finance</a>
+                  </div><a class="post-media" href="blog-post.html"><img src="images/image-12-370x257.jpg" alt=""
+                      width="370" height="257" />
+                    <div class="post-hover-btn mdi-link-variant"></div>
+                  </a>
+                  <div class="post-content">
+                    <h4 class="post-title"><a href="blog-post.html">Help Us Make the Law More Accessible to Everyone</a>
+                    </h4>
+                    <div class="post-date text-small">November 12, 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- Post-->
+                <div class="post post-line">
+                  <div class="post-tags text-small"><a class="post-tag" href="classic-blog.html">Finance</a>
+                  </div><a class="post-media" href="blog-post.html"><img src="images/image-9-370x257.jpg" alt=""
+                      width="370" height="257" />
+                    <div class="post-hover-btn mdi-link-variant"></div>
+                  </a>
+                  <div class="post-content">
+                    <h4 class="post-title"><a href="blog-post.html">5 Legal Documents for Military Service
+                        Representatives</a></h4>
+                    <div class="post-date text-small">November 12, 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- Post-->
+                <div class="post post-line">
+                  <div class="post-tags text-small"><a class="post-tag" href="classic-blog.html">Finance</a>
+                  </div><a class="post-media" href="blog-post.html"><img src="images/image-2-370x266.jpg" alt=""
+                      width="370" height="266" />
+                    <div class="post-hover-btn mdi-link-variant"></div>
+                  </a>
+                  <div class="post-content">
+                    <h4 class="post-title"><a href="blog-post.html">Recent National Employment Law Updates</a></h4>
+                    <div class="post-date text-small">November 12, 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- Post-->
+                <div class="post post-line">
+                  <div class="post-tags text-small"><a class="post-tag" href="classic-blog.html">Finance</a>
+                  </div><a class="post-media" href="blog-post.html"><img src="images/image-1-370x266.jpg" alt=""
+                      width="370" height="266" />
+                    <div class="post-hover-btn mdi-link-variant"></div>
+                  </a>
+                  <div class="post-content">
+                    <h4 class="post-title"><a href="blog-post.html">Tips for Managing Workers’ Compensation Claims</a>
+                    </h4>
+                    <div class="post-date text-small">November 12, 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled"><a class="page-link page-link-prev mdi-chevron-left novi-icon"
+                  href="#"></a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a>
+              </li>
+              <li class="page-item"><a class="page-link page-link-next mdi-chevron-right novi-icon" href="#"></a>
+              </li>
+            </ul>
           </div>
-          <button class="btn btn-lg btn-primary">Search</button>
-        </form>
-        <div class="rd-search-results"></div>
+        </div>
       </div>
     </section>
     <!-- Footer contact-->
