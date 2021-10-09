@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Search results</title>
+  <title>Songs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
   <div class="page">
     <!-- Page title-->
     <section class="section page-title bg-image context-dark"
-      style="background-image: url(images/background/bg-5-1920x496.jpg);">
+      style="background-image: url(images/background/bg-1-1-1920x496.jpg);">
       <!--RD Navbar-->
       <header class="section rd-navbar-wrap">
         <nav class="rd-navbar rd-navbar-default">
@@ -61,7 +61,7 @@
                     </li>
                   </ul>
                 </li>
-                <li class="navbar-navigation-root-item active navbar-navigation-item-hidden"><a
+                <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
                     class="navbar-navigation-root-link" href="#">Pages</a>
                   <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                     <li class="navbar-navigation-back">
@@ -99,12 +99,12 @@
                     <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                         href="coming-soon.html">Coming soon</a>
                     </li>
-                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link"
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                         href="search-results.html">Search results</a>
                     </li>
                   </ul>
                 </li>
-                <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
+                <li class="navbar-navigation-root-item active navbar-navigation-item-hidden"><a
                     class="navbar-navigation-root-link" href="songs.html">Songs</a>
                   <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                     <li class="navbar-navigation-back">
@@ -218,23 +218,108 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-xl-8">
-            <h2 class="page-title-text">Search results</h2>
+            <h2 class="page-title-text">Songs</h2>
           </div>
         </div>
       </div>
     </section>
-    <!-- Search results-->
-    <section class="section section-md bg-transparent"
-      data-preset='{"title":"Search Results","category":"service","reload":true,"id":"search-results"}'>
+    <!-- Blog grid-->
+    <section class="section-md bg-transparent">
       <div class="container">
-        <form class="form-inline group-15" action="search-results.html" method="GET"
-          data-rd-search='{"output":".rd-search-results","mode":"submit"}'>
-          <div class="form-inline-group">
-            <input class="form-control" type="text" placeholder="Enter a keyword" autocomplete="off" name="s">
+        <div class="row row-30 row-xl-60 row-xxl-100">
+          <div class="col-md-4">
+            <!-- Post-->
+            <div class="post post-shadow"><a class="post-media" href="#"><img src="images/image-12-370x257.jpg" alt=""
+                  width="370" height="257" />
+                <div class="post-hover-btn">View</div>
+              </a>
+              <div class="post-content">
+                <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
+                <h4 class="post-title text-divider"><a href="#">God’s Cure For the World’s Worst Disease</a></h4>
+                <div class="post-date">November 12, 2021</div>
+              </div>
+            </div>
           </div>
-          <button class="btn btn-lg btn-primary">Search</button>
-        </form>
-        <div class="rd-search-results"></div>
+          <div class="col-md-4">
+            <!-- Post-->
+            <div class="post post-shadow"><a class="post-media" href="#"><img src="images/image-1-370x257.jpg" alt=""
+                  width="370" height="257" />
+                <div class="post-hover-btn">View</div>
+              </a>
+              <div class="post-content">
+                <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
+                <h4 class="post-title text-divider"><a href="#">Christian Life: Running Well, Finishing Strong</a></h4>
+                <div class="post-date">November 12, 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Post-->
+            <div class="post post-shadow"><a class="post-media" href="#"><img src="images/image-13-370x257.jpg" alt=""
+                  width="370" height="257" />
+                <div class="post-hover-btn">View</div>
+              </a>
+              <div class="post-content">
+                <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
+                <h4 class="post-title text-divider"><a href="#">The Passing of Religious Opportunity</a></h4>
+                <div class="post-date">November 12, 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Post-->
+            <div class="post post-shadow"><a class="post-media" href="#"><img src="images/image-19-370x257.jpg" alt=""
+                  width="370" height="257" />
+                <div class="post-hover-btn">View</div>
+              </a>
+              <div class="post-content">
+                <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
+                <h4 class="post-title text-divider"><a href="#">Christian Life: Where Are My Strengths? (Romans
+                    12:1-8)</a></h4>
+                <div class="post-date">November 12, 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Post-->
+            <div class="post post-shadow"><a class="post-media" href="#"><img src="images/image-20-370x257.jpg" alt=""
+                  width="370" height="257" />
+                <div class="post-hover-btn">View</div>
+              </a>
+              <div class="post-content">
+                <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
+                <h4 class="post-title text-divider"><a href="#">Life is what Happens to You While You Are Making
+                    Plans</a></h4>
+                <div class="post-date">November 12, 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Post-->
+            <div class="post post-shadow"><a class="post-media" href="#"><img src="images/image-5-370x257.jpg" alt=""
+                  width="370" height="257" />
+                <div class="post-hover-btn">View</div>
+              </a>
+              <div class="post-content">
+                <div class="post-tags group-5 text-small"><a class="post-tag" href="#">Songs</a></div>
+                <h4 class="post-title text-divider"><a href="#">Rock Solid: How to Build a Life that Lasts</a></h4>
+                <div class="post-date">November 12, 2021</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled"><a class="page-link page-link-prev mdi-chevron-left novi-icon" href="#"></a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item"><a class="page-link page-link-next mdi-chevron-right novi-icon" href="#"></a>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- Footer contact-->

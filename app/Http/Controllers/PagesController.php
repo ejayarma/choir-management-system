@@ -21,14 +21,14 @@ class PagesController extends Controller
         return view('pages.cart');
     }
 
-    public function blogCarousel()
+    public function events()
     {
-        return view('pages.blog-carousel');
+        return view('pages.events');
     }
 
-    public function blogGrid2()
+    public function seekHelp()
     {
-        return view('pages.blog-grid-2');
+        return view('pages.seek-help');
     }
 
     public function blogGrid()
@@ -36,9 +36,9 @@ class PagesController extends Controller
         return view('pages.blog-grid');
     }
 
-    public function blogGridWithoutSidebar()
+    public function counseling()
     {
-        return view('pages.blog-grid-without-sidebar');
+        return view('pages.counseling');
     }
 
     public function blogPost()
@@ -91,14 +91,14 @@ class PagesController extends Controller
         return view('pages.search-results');
     }
 
-    public function sermonCategories()
+    public function songCategories()
     {
-        return view('pages.sermon-categories');
+        return view('pages.song-categories');
     }
 
-    public function sermons()
+    public function songs()
     {
-        return view('pages.sermons');
+        return view('pages.songs');
     }
 
     public function singleDonation()
@@ -111,9 +111,9 @@ class PagesController extends Controller
         return view('pages.single-product');
     }
 
-    public function singleSermon()
+    public function singleSong()
     {
-        return view('pages.single-sermon');
+        return view('pages.single-song');
     }
 
     public function teamMember()

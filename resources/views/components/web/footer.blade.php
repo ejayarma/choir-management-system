@@ -10,8 +10,8 @@
             <ul class="footer-menu">
                 <li><a href="{{ route('pages.about-us') }}">About</a></li>
                 <li><a href="{{ route('pages.donations') }}">Donations</a></li>
-                <li><a href="{{ route('pages.index') }}">Events</a></li>
-                <li><a href="{{ route('pages.sermons') }}">Sermons</a></li>
+                <li><a href="{{ route('pages.events') }}">Events</a></li>
+                <li><a href="{{ route('pages.songs') }}">Songs</a></li>
                 <li><a href="{{ route('pages.contact-us') }}">Contact us</a></li>
             </ul>
         </div>

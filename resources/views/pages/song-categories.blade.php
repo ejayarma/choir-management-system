@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Search results</title>
+  <title>Song Categories</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
   <div class="page">
     <!-- Page title-->
     <section class="section page-title bg-image context-dark"
-      style="background-image: url(images/background/bg-5-1920x496.jpg);">
+      style="background-image: url(images/background/bg-2-1920x496.jpg);">
       <!--RD Navbar-->
       <header class="section rd-navbar-wrap">
         <nav class="rd-navbar rd-navbar-default">
@@ -61,7 +61,7 @@
                     </li>
                   </ul>
                 </li>
-                <li class="navbar-navigation-root-item active navbar-navigation-item-hidden"><a
+                <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
                     class="navbar-navigation-root-link" href="#">Pages</a>
                   <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                     <li class="navbar-navigation-back">
@@ -99,18 +99,18 @@
                     <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                         href="coming-soon.html">Coming soon</a>
                     </li>
-                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link"
+                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                         href="search-results.html">Search results</a>
                     </li>
                   </ul>
                 </li>
-                <li class="navbar-navigation-root-item navbar-navigation-item-hidden"><a
+                <li class="navbar-navigation-root-item active navbar-navigation-item-hidden"><a
                     class="navbar-navigation-root-link" href="songs.html">Songs</a>
                   <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                     <li class="navbar-navigation-back">
                       <button class="navbar-navigation-back-btn">Back</button>
                     </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link"
                         href="song-categories.html">Song Categories</a>
                     </li>
                     <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
@@ -218,23 +218,158 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-xl-8">
-            <h2 class="page-title-text">Search results</h2>
+            <h2 class="page-title-text">Song Categories</h2>
           </div>
         </div>
       </div>
     </section>
-    <!-- Search results-->
-    <section class="section section-md bg-transparent"
-      data-preset='{"title":"Search Results","category":"service","reload":true,"id":"search-results"}'>
+    <!-- Practice-->
+    <section class="section-md bg-transparent">
       <div class="container">
-        <form class="form-inline group-15" action="search-results.html" method="GET"
-          data-rd-search='{"output":".rd-search-results","mode":"submit"}'>
-          <div class="form-inline-group">
-            <input class="form-control" type="text" placeholder="Enter a keyword" autocomplete="off" name="s">
+        <div class="row row-40 row-xl-55 row-xxl-100">
+          <div class="col-sm-6 col-lg-4">
+            <!-- Thumbnail-->
+            <div class="thumbnail thumbnail-simple"><a class="thumbnail-media" href="single-song.html"><img
+                  src="images/image-3-370x266.jpg" alt="" width="370" height="266" /></a>
+              <div class="thumbnail-body">
+                <h3 class="thumbnail-title"><a href="single-song.html">Character</a></h3>
+                <div class="thumbnail-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.
+                </div><a class="thumbnail-link" href="single-song.html">Explore</a>
+              </div>
+            </div>
           </div>
-          <button class="btn btn-lg btn-primary">Search</button>
-        </form>
-        <div class="rd-search-results"></div>
+          <div class="col-sm-6 col-lg-4">
+            <!-- Thumbnail-->
+            <div class="thumbnail thumbnail-simple"><a class="thumbnail-media" href="single-song.html"><img
+                  src="images/image-4-370x266.jpg" alt="" width="370" height="266" /></a>
+              <div class="thumbnail-body">
+                <h3 class="thumbnail-title"><a href="single-song.html">Christian Life</a></h3>
+                <div class="thumbnail-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempo.</div><a class="thumbnail-link" href="single-song.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <!-- Thumbnail-->
+            <div class="thumbnail thumbnail-simple"><a class="thumbnail-media" href="single-song.html"><img
+                  src="images/image-2-370x266.jpg" alt="" width="370" height="266" /></a>
+              <div class="thumbnail-body">
+                <h3 class="thumbnail-title"><a href="single-song.html">Healing</a></h3>
+                <div class="thumbnail-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                </div><a class="thumbnail-link" href="single-song.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <!-- Thumbnail-->
+            <div class="thumbnail thumbnail-simple"><a class="thumbnail-media" href="single-song.html"><img
+                  src="images/image-5-370x266.jpg" alt="" width="370" height="266" /></a>
+              <div class="thumbnail-body">
+                <h3 class="thumbnail-title"><a href="single-song.html">Holy Spirit</a></h3>
+                <div class="thumbnail-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu.</div><a class="thumbnail-link" href="single-song.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <!-- Thumbnail-->
+            <div class="thumbnail thumbnail-simple"><a class="thumbnail-media" href="single-song.html"><img
+                  src="images/image-6-370x266.jpg" alt="" width="370" height="266" /></a>
+              <div class="thumbnail-body">
+                <h3 class="thumbnail-title"><a href="single-song.html">Ministry</a></h3>
+                <div class="thumbnail-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                </div><a class="thumbnail-link" href="single-song.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <!-- Thumbnail-->
+            <div class="thumbnail thumbnail-simple"><a class="thumbnail-media" href="single-song.html"><img
+                  src="images/image-7-370x266.jpg" alt="" width="370" height="266" /></a>
+              <div class="thumbnail-body">
+                <h3 class="thumbnail-title"><a href="single-song.html">Marriage</a></h3>
+                <div class="thumbnail-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                </div><a class="thumbnail-link" href="single-song.html">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our goals-->
+    <section class="section-md bg-100" id="consultation-form">
+      <div class="container">
+        <div class="row row-30 justify-content-xl-between">
+          <div class="col-md-6 col-xl-5 text-center text-md-left" data-animate='{"class":"fadeInLeftBig"}'>
+            <div class="image-block"><img src="images/image-11-357x494.jpg" alt="" width="357" height="494" />
+              <div class="image-block-embed">
+                <h3 class="text-primary">16:00</h3>
+                <p class="small">November<br>12, 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-7 col-xxl-6">
+            <h2 data-animate='{"class":"fadeInRightBig"}'>Come visit Us</h2>
+            <p class="big" data-animate='{"class":"fadeInRightBig","delay":".1"}'>Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam.</p>
+            <div class="row row-5 row-content" data-animate='{"class":"fadeInRightBig","delay":".2"}'>
+              <div class="col-sm-6">
+                <ul class="list list-marked">
+                  <li class="list-item">Prayer;</li>
+                  <li class="list-item">Singing;</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="list list-marked">
+                  <li class="list-item">Giving;</li>
+                  <li class="list-item">The Bible Study.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="divider divider-sm" data-animate='{"class":"fadeInRightBig","delay":".3"}'></div>
+            <h4 data-animate='{"class":"fadeInRightBig","delay":".4"}'>Get a free consultation</h4>
+            <form class="rd-mailform rd-form" data-form-output="form-consultation" data-form-type="contact"
+              method="post" action="components/rd-mailform/rd-mailform.php"
+              data-animate='{"class":"fadeInRightBig","delay":".5"}'>
+              <div class="row row-15 row-gutters-15">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="Your Name*"
+                      data-constraints="@Required">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input class="form-control" type="email" name="email" placeholder="Your E-mail*"
+                      data-constraints="@Email @Required">
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-6">
+                  <div class="form-group">
+                    <input class="form-control" type="text" name="phone" placeholder="Your Phone*"
+                      data-constraints="@PhoneNumber @Required">
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-6">
+                  <button class="btn btn-block" type="submit">Make an appointment</button>
+                </div>
+              </div>
+            </form>
+            <div class="form-output snackbar snackbar-primary" id="form-consultation"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Awards-->
+    <section class="section-sm bg-transparent text-center">
+      <div class="container">
+        <div class="owl-carousel owl-vertical-center owl-content-1" data-owl="{&quot;dots&quot;:true}" data-items="2"
+          data-sm-items="3" data-md-items="4"><img src="images/logo/logo-1-157x39.png" alt="" width="157"
+            height="39" /><img src="images/logo/logo-2-95x25.png" alt="" width="95" height="25" /><img
+            src="images/logo/logo-3-92x39.png" alt="" width="92" height="39" /><img src="images/logo/logo-4-116x33.png"
+            alt="" width="116" height="33" />
+        </div>
       </div>
     </section>
     <!-- Footer contact-->
