@@ -81,9 +81,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            {{-- <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
-                                    href="404.html">404</a>
-                            </li> --}}
                             <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
                                     href="{{ route('pages.typography') }}">Typography</a>
                             </li>
@@ -126,21 +123,34 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="navbar-navigation-root-item active navbar-navigation-item-hidden"><a
-                            class="navbar-navigation-root-link" href="{{ route('pages.contact-us') }}">Contact us</a>
+                    {{-- <li class="navbar-navigation-root-item active navbar-navigation-item-hidden"> --}}
+                    @guest
+                    <li class="navbar-navigation-root-item navbar-navigation-item-hidden">
+                        <a class="navbar-navigation-root-link" href="{{ route('login') }}">Register/Login</a>
                     </li>
+                    @endguest
                 </ul>
             </div>
             <div class="navbar-cell">
                 <div class="navbar-subpanel">
+                    @auth
                     <div class="navbar-subpanel-item">
-                        <button class="navbar-button navbar-list-button mdi-dots-vertical"
+                        <h5 class="text-primary">{{ Auth::user()->name }}</h5>
+                    </div>
+                    <div class="navbar-subpanel-item">
+                        <button class="navbar-button navbar-list-button linearicons-user"
                             data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-list-active","isolate":"[data-multi-switch]"}'></button>
                         <div class="navbar-list">
-                            <div class="navbar-list-icon mdi-cellphone"></div><a
-                                class="link link-inherit navbar-list-link" href="tel:#">800.567.1234</a>
+                            <div class="navbar-list-icon mdi-logout"></div>
+
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <a class="link link-inherit navbar-list-link" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                this.closest('form').submit();">Logout</a>
+                            </form>
                         </div>
                     </div>
+                    @endauth
                     <div class="navbar-subpanel-item">
                         <button class="navbar-button navbar-cart-button mdi-cart"
                             data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-cart-active","isolate":"[data-multi-switch]"}'><span
@@ -182,6 +192,14 @@
                                 <li class="list-item">
                                     <!-- Blurb link-->
                                     <div class="blurb blurb-link">
+                                        <div class="blurb-icon linearicons-phone"></div>
+                                        <h4 class="blurb-title"><a href="{{ route('pages.contact-us') }}">Get in
+                                                Touch</a></h4>
+                                    </div>
+                                </li>
+                                <li class="list-item">
+                                    <!-- Blurb link-->
+                                    <div class="blurb blurb-link">
                                         <div class="blurb-icon linearicons-credit-card"></div>
                                         <h4 class="blurb-title"><a href="{{ route('pages.donations') }}">Make a
                                                 Donation</a></h4>
@@ -191,7 +209,8 @@
                                     <!-- Blurb link-->
                                     <div class="blurb blurb-link">
                                         <div class="blurb-icon linearicons-bookmark"></div>
-                                        <h4 class="blurb-title"><a href="{{ route('pages.songs')}}">Songs</a></h4>
+                                        <h4 class="blurb-title"><a href="{{ route('pages.songs')}}">Explore our
+                                                Songs</a></h4>
                                     </div>
                                 </li>
                                 <li class="list-item">
