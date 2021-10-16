@@ -37,6 +37,34 @@
                     required />
             </div>
 
+            <!-- Singing part -->
+            <div class="mt-4">
+                <x-label for="singing-part" :value="__('Singing Part')" />
+
+                <div class="select-wrap position-relative">
+                    <select
+                        class="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50'"
+                        id="singing-part" name="singing_part" data-select2-options='{"placeholder":"Country*"}'
+                        data-constraints="@Required">
+                        <option label="How do you sound like?"></option>
+                        <option class="p-2 w-full" value="saprano">saprano</option>
+                        <option class="p-2 w-full" value="tenor">tenor</option>
+                        <option class="p-2 w-full" value="alto">alto</option>
+                        <option class="p-2 w-full" value="bass">bass</option>
+                        <option class="p-2 w-full" value="treble">treble</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Executive? -->
+            <div class="mt-4">
+                <x-label for="is-executive" :value="__('Are you an executive? Tick if yes')" />
+
+                <input id="is-executive" class="mt-1" type="checkbox" name="is_executive"
+                    :value="old('is_executive')" />
+            </div>
+
+
             <!-- Password -->
             <div class="mt-4">
                 <x-label for="password" :value="__('Password')" />

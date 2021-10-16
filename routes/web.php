@@ -1,6 +1,13 @@
 <?php
 
+use App\Http\Controllers\CounselingMaterialController;
+use App\Http\Controllers\CounselingRequestController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DonationController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\SongController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,12 +24,11 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+// Import auth routes defined by Sanctum
 require __DIR__ . '/auth.php';
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
+// Pages routes
 Route::get('/', [PagesController::class, 'index'])->name('pages.index');
 Route::get('/about-us', [PagesController::class, 'aboutUs'])->name('pages.about-us');
 Route::get('/events', [PagesController::class, 'events'])->name('pages.events');
@@ -47,3 +53,26 @@ Route::get('/single-product', [PagesController::class, 'singleProduct'])->name('
 Route::get('/single-song', [PagesController::class, 'singleSong'])->name('pages.single-song');
 Route::get('/team-member', [PagesController::class, 'teamMember'])->name('pages.team-member');
 Route::get('/typography', [PagesController::class, 'typography'])->name('pages.typography');
+
+// Route::group(['prefix' => 'dashboard'], function () {
+//     Route::get('/', [DashboardController::class, 'index'])->middleware(['auth'])->name('dashboard.index');
+//     Route::resource('programs', ProgramController::class);
+//     Route::resource('donations', DonationController::class);
+//     Route::resource('conseling-materials', CounselingMaterialController::class);
+//     Route::resource('conseling-requests', CounselingRequestController::class);
+//     Route::resource('songs', SongController::class);
+//     Route::resource('partners', PartnerController::class)->except('show', 'store', 'edit', 'update', 'destroy');
+// });
+
+// Define dashboard routes
+Route::prefix('dashboard')->group(function () {
+    // Route::get('/', [DashboardController::class, 'index'])->name('dashboard.index');
+    Route::get('/', [DashboardController::class, 'index'])->middleware(['auth'])->name('dashboard.index');
+    Route::get('/partners/create', [PartnerController::class, 'create'])->middleware(['auth'])->name('dashboard.create');
+    Route::resource('programs', ProgramController::class);
+    Route::resource('donations', DonationController::class);
+    Route::resource('conseling-materials', CounselingMaterialController::class);
+    Route::resource('conseling-requests', CounselingRequestController::class);
+    Route::resource('songs', SongController::class);
+    Route::resource('partners', PartnerController::class);
+});
